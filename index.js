@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  bot.user.setGame('Bot is online');
+  client.user.setGame('Bot is online');
 });
 
 client.on('message', msg => {
