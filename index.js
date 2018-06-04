@@ -18,4 +18,4 @@ client.on('guildMemberAdd', member => {
     channel.send(`Welkom, ${member}, op de server!`);
   });
 
-client.login();
+client.login(process.env.BOT_TOKEN);
